@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2406A4C2224B5AEE0062E008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A4C1224B5AEE0062E008 /* AppDelegate.m */; };
+		2406A4C5224B5AEE0062E008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A4C4224B5AEE0062E008 /* ViewController.m */; };
+		2406A4C8224B5AEE0062E008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2406A4C6224B5AEE0062E008 /* Main.storyboard */; };
+		2406A4CA224B5AF00062E008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2406A4C9224B5AF00062E008 /* Assets.xcassets */; };
+		2406A4CD224B5AF00062E008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2406A4CB224B5AF00062E008 /* LaunchScreen.storyboard */; };
+		2406A4D0224B5AF00062E008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A4CF224B5AF00062E008 /* main.m */; };
+		2406A4DA224B5AF00062E008 /* Tsting_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A4D9224B5AF00062E008 /* Tsting_____Tests.m */; };
+		2406A4E5224B5AF00062E008 /* Tsting_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A4E4224B5AF00062E008 /* Tsting_____UITests.m */; };
+		2406A4F6224B5C3F0062E008 /* BSPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A4F5224B5C3F0062E008 /* BSPrinterManager.m */; };
+		2406A57D224B7DFF0062E008 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2406A57C224B7DFF0062E008 /* SystemConfiguration.framework */; };
+		2406A582224B87610062E008 /* NSObject+BSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A581224B87610062E008 /* NSObject+BSTools.m */; };
+		2406A585224B8CFD0062E008 /* UIViewController+BSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A584224B8CFD0062E008 /* UIViewController+BSTools.m */; };
+		2406A587224C6A980062E008 /* PrinterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2406A586224C6A980062E008 /* PrinterSDK.framework */; };
+		2406A5BA224CB9B70062E008 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 2406A5B9224CB9B70062E008 /* test.png */; };
+		2406A5BD224CBB830062E008 /* BSPrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A5BC224CBB830062E008 /* BSPrintView.m */; };
+		2406A5C2224CCB2B0062E008 /* BSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A5C1224CCB2B0062E008 /* BSSecondViewController.m */; };
+		2406A5C5224CD4D30062E008 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406A5C4224CD4D30062E008 /* UIImage+QRCode.m */; };
+		2406A5CA224DAEB80062E008 /* luowencai.png in Resources */ = {isa = PBXBuildFile; fileRef = 2406A5C9224DAEB80062E008 /* luowencai.png */; };
+		24FE5A2E224DFF570059185E /* BSPrinterModelCPCL.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FE5A2D224DFF570059185E /* BSPrinterModelCPCL.m */; };
+		5C20B31CBB7942FAA026D31D /* libPods-Tsting-蓝牙打印.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5747547E4CEF58C9454554B /* libPods-Tsting-蓝牙打印.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2406A4D6224B5AF00062E008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2406A4B5224B5AEE0062E008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2406A4BC224B5AEE0062E008;
+			remoteInfo = "Tsting-蓝牙打印";
+		};
+		2406A4E1224B5AF00062E008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2406A4B5224B5AEE0062E008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2406A4BC224B5AEE0062E008;
+			remoteInfo = "Tsting-蓝牙打印";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2406A4BD224B5AEE0062E008 /* Tsting-蓝牙打印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tsting-蓝牙打印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2406A4C0224B5AEE0062E008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2406A4C1224B5AEE0062E008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2406A4C3224B5AEE0062E008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2406A4C4224B5AEE0062E008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2406A4C7224B5AEE0062E008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2406A4C9224B5AF00062E008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2406A4CC224B5AF00062E008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2406A4CE224B5AF00062E008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2406A4CF224B5AF00062E008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2406A4D5224B5AF00062E008 /* Tsting-蓝牙打印Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tsting-蓝牙打印Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2406A4D9224B5AF00062E008 /* Tsting_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tsting_____Tests.m"; sourceTree = "<group>"; };
+		2406A4DB224B5AF00062E008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2406A4E0224B5AF00062E008 /* Tsting-蓝牙打印UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tsting-蓝牙打印UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2406A4E4224B5AF00062E008 /* Tsting_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tsting_____UITests.m"; sourceTree = "<group>"; };
+		2406A4E6224B5AF00062E008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2406A4F4224B5C3F0062E008 /* BSPrinterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPrinterManager.h; sourceTree = "<group>"; };
+		2406A4F5224B5C3F0062E008 /* BSPrinterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPrinterManager.m; sourceTree = "<group>"; };
+		2406A505224B6A560062E008 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2406A569224B79B60062E008 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2406A56B224B79C10062E008 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		2406A56D224B79D00062E008 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		2406A57C224B7DFF0062E008 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2406A580224B87610062E008 /* NSObject+BSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BSTools.h"; sourceTree = "<group>"; };
+		2406A581224B87610062E008 /* NSObject+BSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BSTools.m"; sourceTree = "<group>"; };
+		2406A583224B8CFD0062E008 /* UIViewController+BSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BSTools.h"; sourceTree = "<group>"; };
+		2406A584224B8CFD0062E008 /* UIViewController+BSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BSTools.m"; sourceTree = "<group>"; };
+		2406A586224C6A980062E008 /* PrinterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PrinterSDK.framework; sourceTree = "<group>"; };
+		2406A5B9224CB9B70062E008 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		2406A5BB224CBB830062E008 /* BSPrintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPrintView.h; sourceTree = "<group>"; };
+		2406A5BC224CBB830062E008 /* BSPrintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPrintView.m; sourceTree = "<group>"; };
+		2406A5C0224CCB2B0062E008 /* BSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSecondViewController.h; sourceTree = "<group>"; };
+		2406A5C1224CCB2B0062E008 /* BSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSecondViewController.m; sourceTree = "<group>"; };
+		2406A5C3224CD4D20062E008 /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		2406A5C4224CD4D30062E008 /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+		2406A5C9224DAEB80062E008 /* luowencai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luowencai.png; sourceTree = "<group>"; };
+		24FE5A2C224DFF570059185E /* BSPrinterModelCPCL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPrinterModelCPCL.h; sourceTree = "<group>"; };
+		24FE5A2D224DFF570059185E /* BSPrinterModelCPCL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPrinterModelCPCL.m; sourceTree = "<group>"; };
+		5D86A0DEE49E5E606AD9EE0A /* Pods-Tsting-蓝牙打印.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-蓝牙打印.release.xcconfig"; path = "Target Support Files/Pods-Tsting-蓝牙打印/Pods-Tsting-蓝牙打印.release.xcconfig"; sourceTree = "<group>"; };
+		78B8BC78680F94F04E098D72 /* Pods-Tsting-蓝牙打印.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsting-蓝牙打印.debug.xcconfig"; path = "Target Support Files/Pods-Tsting-蓝牙打印/Pods-Tsting-蓝牙打印.debug.xcconfig"; sourceTree = "<group>"; };
+		E5747547E4CEF58C9454554B /* libPods-Tsting-蓝牙打印.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tsting-蓝牙打印.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2406A4BA224B5AEE0062E008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2406A587224C6A980062E008 /* PrinterSDK.framework in Frameworks */,
+				2406A57D224B7DFF0062E008 /* SystemConfiguration.framework in Frameworks */,
+				5C20B31CBB7942FAA026D31D /* libPods-Tsting-蓝牙打印.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2406A4D2224B5AF00062E008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2406A4DD224B5AF00062E008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2406A4B4224B5AEE0062E008 = {
+			isa = PBXGroup;
+			children = (
+				2406A586224C6A980062E008 /* PrinterSDK.framework */,
+				2406A4BF224B5AEE0062E008 /* Tsting-蓝牙打印 */,
+				2406A4D8224B5AF00062E008 /* Tsting-蓝牙打印Tests */,
+				2406A4E3224B5AF00062E008 /* Tsting-蓝牙打印UITests */,
+				2406A4BE224B5AEE0062E008 /* Products */,
+				2406A504224B6A550062E008 /* Frameworks */,
+				5F39B547340F80B6219B04D7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2406A4BE224B5AEE0062E008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2406A4BD224B5AEE0062E008 /* Tsting-蓝牙打印.app */,
+				2406A4D5224B5AF00062E008 /* Tsting-蓝牙打印Tests.xctest */,
+				2406A4E0224B5AF00062E008 /* Tsting-蓝牙打印UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2406A4BF224B5AEE0062E008 /* Tsting-蓝牙打印 */ = {
+			isa = PBXGroup;
+			children = (
+				24FE5A2F224E040C0059185E /* BSTools */,
+				2406A4F7224B5C9A0062E008 /* BSPrinter */,
+				2406A4C0224B5AEE0062E008 /* AppDelegate.h */,
+				2406A4C1224B5AEE0062E008 /* AppDelegate.m */,
+				2406A4C3224B5AEE0062E008 /* ViewController.h */,
+				2406A4C4224B5AEE0062E008 /* ViewController.m */,
+				2406A5C0224CCB2B0062E008 /* BSSecondViewController.h */,
+				2406A5C1224CCB2B0062E008 /* BSSecondViewController.m */,
+				2406A5BB224CBB830062E008 /* BSPrintView.h */,
+				2406A5BC224CBB830062E008 /* BSPrintView.m */,
+				2406A5B9224CB9B70062E008 /* test.png */,
+				2406A5C9224DAEB80062E008 /* luowencai.png */,
+				2406A4C6224B5AEE0062E008 /* Main.storyboard */,
+				2406A4C9224B5AF00062E008 /* Assets.xcassets */,
+				2406A4CB224B5AF00062E008 /* LaunchScreen.storyboard */,
+				2406A4CE224B5AF00062E008 /* Info.plist */,
+				2406A4CF224B5AF00062E008 /* main.m */,
+			);
+			path = "Tsting-蓝牙打印";
+			sourceTree = "<group>";
+		};
+		2406A4D8224B5AF00062E008 /* Tsting-蓝牙打印Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2406A4D9224B5AF00062E008 /* Tsting_____Tests.m */,
+				2406A4DB224B5AF00062E008 /* Info.plist */,
+			);
+			path = "Tsting-蓝牙打印Tests";
+			sourceTree = "<group>";
+		};
+		2406A4E3224B5AF00062E008 /* Tsting-蓝牙打印UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2406A4E4224B5AF00062E008 /* Tsting_____UITests.m */,
+				2406A4E6224B5AF00062E008 /* Info.plist */,
+			);
+			path = "Tsting-蓝牙打印UITests";
+			sourceTree = "<group>";
+		};
+		2406A4F7224B5C9A0062E008 /* BSPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				2406A4F4224B5C3F0062E008 /* BSPrinterManager.h */,
+				2406A4F5224B5C3F0062E008 /* BSPrinterManager.m */,
+				24FE5A2C224DFF570059185E /* BSPrinterModelCPCL.h */,
+				24FE5A2D224DFF570059185E /* BSPrinterModelCPCL.m */,
+			);
+			path = BSPrinter;
+			sourceTree = "<group>";
+		};
+		2406A504224B6A550062E008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2406A57C224B7DFF0062E008 /* SystemConfiguration.framework */,
+				2406A56D224B79D00062E008 /* libc++abi.tbd */,
+				2406A56B224B79C10062E008 /* libc.tbd */,
+				2406A569224B79B60062E008 /* libc++.tbd */,
+				2406A505224B6A560062E008 /* CoreBluetooth.framework */,
+				E5747547E4CEF58C9454554B /* libPods-Tsting-蓝牙打印.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24FE5A2F224E040C0059185E /* BSTools */ = {
+			isa = PBXGroup;
+			children = (
+				24FE5A30224E04170059185E /* Categories */,
+			);
+			path = BSTools;
+			sourceTree = "<group>";
+		};
+		24FE5A30224E04170059185E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2406A5C3224CD4D20062E008 /* UIImage+QRCode.h */,
+				2406A5C4224CD4D30062E008 /* UIImage+QRCode.m */,
+				2406A580224B87610062E008 /* NSObject+BSTools.h */,
+				2406A581224B87610062E008 /* NSObject+BSTools.m */,
+				2406A583224B8CFD0062E008 /* UIViewController+BSTools.h */,
+				2406A584224B8CFD0062E008 /* UIViewController+BSTools.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		5F39B547340F80B6219B04D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B8BC78680F94F04E098D72 /* Pods-Tsting-蓝牙打印.debug.xcconfig */,
+				5D86A0DEE49E5E606AD9EE0A /* Pods-Tsting-蓝牙打印.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2406A4BC224B5AEE0062E008 /* Tsting-蓝牙打印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2406A4E9224B5AF00062E008 /* Build configuration list for PBXNativeTarget "Tsting-蓝牙打印" */;
+			buildPhases = (
+				5BCD721A8A52ED6E76F30996 /* [CP] Check Pods Manifest.lock */,
+				2406A4B9224B5AEE0062E008 /* Sources */,
+				2406A4BA224B5AEE0062E008 /* Frameworks */,
+				2406A4BB224B5AEE0062E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tsting-蓝牙打印";
+			productName = "Tsting-蓝牙打印";
+			productReference = 2406A4BD224B5AEE0062E008 /* Tsting-蓝牙打印.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2406A4D4224B5AF00062E008 /* Tsting-蓝牙打印Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2406A4EC224B5AF00062E008 /* Build configuration list for PBXNativeTarget "Tsting-蓝牙打印Tests" */;
+			buildPhases = (
+				2406A4D1224B5AF00062E008 /* Sources */,
+				2406A4D2224B5AF00062E008 /* Frameworks */,
+				2406A4D3224B5AF00062E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2406A4D7224B5AF00062E008 /* PBXTargetDependency */,
+			);
+			name = "Tsting-蓝牙打印Tests";
+			productName = "Tsting-蓝牙打印Tests";
+			productReference = 2406A4D5224B5AF00062E008 /* Tsting-蓝牙打印Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2406A4DF224B5AF00062E008 /* Tsting-蓝牙打印UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2406A4EF224B5AF00062E008 /* Build configuration list for PBXNativeTarget "Tsting-蓝牙打印UITests" */;
+			buildPhases = (
+				2406A4DC224B5AF00062E008 /* Sources */,
+				2406A4DD224B5AF00062E008 /* Frameworks */,
+				2406A4DE224B5AF00062E008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2406A4E2224B5AF00062E008 /* PBXTargetDependency */,
+			);
+			name = "Tsting-蓝牙打印UITests";
+			productName = "Tsting-蓝牙打印UITests";
+			productReference = 2406A4E0224B5AF00062E008 /* Tsting-蓝牙打印UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2406A4B5224B5AEE0062E008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = banglin;
+				TargetAttributes = {
+					2406A4BC224B5AEE0062E008 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					2406A4D4224B5AF00062E008 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2406A4BC224B5AEE0062E008;
+					};
+					2406A4DF224B5AF00062E008 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2406A4BC224B5AEE0062E008;
+					};
+				};
+			};
+			buildConfigurationList = 2406A4B8224B5AEE0062E008 /* Build configuration list for PBXProject "Tsting-蓝牙打印" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2406A4B4224B5AEE0062E008;
+			productRefGroup = 2406A4BE224B5AEE0062E008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2406A4BC224B5AEE0062E008 /* Tsting-蓝牙打印 */,
+				2406A4D4224B5AF00062E008 /* Tsting-蓝牙打印Tests */,
+				2406A4DF224B5AF00062E008 /* Tsting-蓝牙打印UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2406A4BB224B5AEE0062E008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2406A4CD224B5AF00062E008 /* LaunchScreen.storyboard in Resources */,
+				2406A4CA224B5AF00062E008 /* Assets.xcassets in Resources */,
+				2406A4C8224B5AEE0062E008 /* Main.storyboard in Resources */,
+				2406A5CA224DAEB80062E008 /* luowencai.png in Resources */,
+				2406A5BA224CB9B70062E008 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2406A4D3224B5AF00062E008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2406A4DE224B5AF00062E008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BCD721A8A52ED6E76F30996 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsting-蓝牙打印-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2406A4B9224B5AEE0062E008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2406A4C5224B5AEE0062E008 /* ViewController.m in Sources */,
+				24FE5A2E224DFF570059185E /* BSPrinterModelCPCL.m in Sources */,
+				2406A5C2224CCB2B0062E008 /* BSSecondViewController.m in Sources */,
+				2406A5BD224CBB830062E008 /* BSPrintView.m in Sources */,
+				2406A4F6224B5C3F0062E008 /* BSPrinterManager.m in Sources */,
+				2406A4D0224B5AF00062E008 /* main.m in Sources */,
+				2406A585224B8CFD0062E008 /* UIViewController+BSTools.m in Sources */,
+				2406A4C2224B5AEE0062E008 /* AppDelegate.m in Sources */,
+				2406A5C5224CD4D30062E008 /* UIImage+QRCode.m in Sources */,
+				2406A582224B87610062E008 /* NSObject+BSTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2406A4D1224B5AF00062E008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2406A4DA224B5AF00062E008 /* Tsting_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2406A4DC224B5AF00062E008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2406A4E5224B5AF00062E008 /* Tsting_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2406A4D7224B5AF00062E008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2406A4BC224B5AEE0062E008 /* Tsting-蓝牙打印 */;
+			targetProxy = 2406A4D6224B5AF00062E008 /* PBXContainerItemProxy */;
+		};
+		2406A4E2224B5AF00062E008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2406A4BC224B5AEE0062E008 /* Tsting-蓝牙打印 */;
+			targetProxy = 2406A4E1224B5AF00062E008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2406A4C6224B5AEE0062E008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2406A4C7224B5AEE0062E008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2406A4CB224B5AF00062E008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2406A4CC224B5AF00062E008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2406A4E7224B5AF00062E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2406A4E8224B5AF00062E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2406A4EA224B5AF00062E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B8BC78680F94F04E098D72 /* Pods-Tsting-蓝牙打印.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8728QFQ2D9;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tsting-蓝牙打印",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CPCL\\ ",
+				);
+				INFOPLIST_FILE = "Tsting-蓝牙打印/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banglin.sui.Tsting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2406A4EB224B5AF00062E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D86A0DEE49E5E606AD9EE0A /* Pods-Tsting-蓝牙打印.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8728QFQ2D9;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tsting-蓝牙打印",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CPCL\\ ",
+				);
+				INFOPLIST_FILE = "Tsting-蓝牙打印/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banglin.sui.Tsting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2406A4ED224B5AF00062E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN8US939RV;
+				INFOPLIST_FILE = "Tsting-蓝牙打印Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banglin.sui.Tsting-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsting-蓝牙打印.app/Tsting-蓝牙打印";
+			};
+			name = Debug;
+		};
+		2406A4EE224B5AF00062E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN8US939RV;
+				INFOPLIST_FILE = "Tsting-蓝牙打印Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banglin.sui.Tsting-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsting-蓝牙打印.app/Tsting-蓝牙打印";
+			};
+			name = Release;
+		};
+		2406A4F0224B5AF00062E008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN8US939RV;
+				INFOPLIST_FILE = "Tsting-蓝牙打印UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banglin.sui.Tsting-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tsting-蓝牙打印";
+			};
+			name = Debug;
+		};
+		2406A4F1224B5AF00062E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN8US939RV;
+				INFOPLIST_FILE = "Tsting-蓝牙打印UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banglin.sui.Tsting-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tsting-蓝牙打印";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2406A4B8224B5AEE0062E008 /* Build configuration list for PBXProject "Tsting-蓝牙打印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2406A4E7224B5AF00062E008 /* Debug */,
+				2406A4E8224B5AF00062E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2406A4E9224B5AF00062E008 /* Build configuration list for PBXNativeTarget "Tsting-蓝牙打印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2406A4EA224B5AF00062E008 /* Debug */,
+				2406A4EB224B5AF00062E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2406A4EC224B5AF00062E008 /* Build configuration list for PBXNativeTarget "Tsting-蓝牙打印Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2406A4ED224B5AF00062E008 /* Debug */,
+				2406A4EE224B5AF00062E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2406A4EF224B5AF00062E008 /* Build configuration list for PBXNativeTarget "Tsting-蓝牙打印UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2406A4F0224B5AF00062E008 /* Debug */,
+				2406A4F1224B5AF00062E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2406A4B5224B5AEE0062E008 /* Project object */;
+}
